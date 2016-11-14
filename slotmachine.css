@@ -12,12 +12,12 @@ fieldset {
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
-    margin-top: 2em;
+    margin-top: .5em;
     color: gray;
 }
 .test:hover {background-color: #84e4fa}
 .test:active {
-    background-color: gray;
+    background-color: #5F5F5F;
     box-shadow: 0 5px #999;
     color: #84e4fa;
 }
@@ -54,4 +54,14 @@ header {
     color: #cac5c0;
     font-size: 3em;
 }
-
+#tokens {
+    font-size: 4em;
+    text-align: center;
+    color: #cac5c0;
+    top: 7.5em;
+    text-align: center;
+}
+body {
+    background-image: url(image/paint.gif);
+    background-size: cover;
+}
